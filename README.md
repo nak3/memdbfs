@@ -13,5 +13,8 @@ Usage
 ~~~
 make deps
 make build
-make run
+mkdir -p /tmp/memdbfs/mnt 
+./bin/memdbfs /tmp/memdbfs/mnt
 ~~~
+
+Now you can test the mount point `/tmp/memdbfs/mnt`. Again, this repository is still experimental status so there are some unsupported file operations.
